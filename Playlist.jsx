@@ -15,7 +15,7 @@ const tracks = [
 ];
 
 const Playlist = () => (
-  <div className="playlist">
+  <div className="space-y-4">
     {tracks.map(track => (
       <Track key={track.id} {...track} />
     ))}

@@ -25,3 +25,9 @@ npm start
 ```
 
 Then open the URL printed in the terminal to view the app.
+
+## Tailwind CSS
+
+Tailwind is processed automatically by Parcel using the included `postcss.config.js`.
+Simply run the development server (`npm start` or `npx parcel index.html`) and Tailwind
+will build your styles.

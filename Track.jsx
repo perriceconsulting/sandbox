@@ -16,9 +16,9 @@ const Track = ({ title, src }) => {
   };
 
   return (
-    <div className="track">
+    <div className="flex items-center mb-4">
       <span>{title}</span>
-      <button onClick={togglePlay}>{playing ? 'Pause' : 'Play'}</button>
+      <button className="ml-4 px-2 py-1 bg-spotify text-white rounded" onClick={togglePlay}>{playing ? 'Pause' : 'Play'}</button>
       <audio ref={audioRef} src={src} />
     </div>
   );
