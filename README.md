@@ -18,4 +18,10 @@ Start the development server with Parcel:
 npx parcel index.html
 ```
 
+You can also use the npm script:
+
+```bash
+npm start
+```
+
 Then open the URL printed in the terminal to view the app.
